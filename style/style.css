@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&family=Raleway:ital,wght@0,100;0,200;0,900;1,100;1,200;1,300&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../font/Raleway-VariableFont_wght.ttf"), format('TrueType'); }
+
+h1, h2, h3, h4{
+        font-family: 'Lato', sans-serif;
+}
+    
+html{
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    background-color: #782221;
+    width: 1160px; 
+    margin: auto;
+
+  }
+
+  #exp{
+    background-color: white;
+    margin-left: 50px;
+    margin-bottom: 100px;
+  }
+#pdp{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #dbc2a4;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 20px;
+  }
+#pdp:hover{
+    cursor: zoom-in;
+}
+  h1,
+  h2 {
+    
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+  }
+
+  #contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2c1d27;
+    width: 1160px;
+    color: white;
+} 
+
+#base{
+    width: 1160px;
+    display: grid;
+    background-color: #782221;
+    margin: auto;
+    grid-template-columns: repeat(4,290px);
+    grid-template-rows: auto;
+    
+}
+
+footer{
+    display: grid;
+    background-color: #782221;
+    margin: auto;
+    width: 1160px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+#maj{
+    display: flex;
+    justify-content: center;
+}
+.adresse{
+    text-decoration: none;
+    color: white;
+}
+.mail{
+    text-decoration: none;
+    color: white;
+}
+.tel{
+    text-decoration: none;
+    color: white;
+}
+
+.adresse:hover{
+    text-decoration: underline;
+}
+.mail:hover{
+    text-decoration: underline;
+}
+.tel:hover{
+    text-decoration: underline;
+}
+h3{
+    color: black;
+    background-color: #dbc2a4;
+    text-indent: 20px;
+}
+#Info{
+    color: white;
+   
+}
+
+#a-propos{
+    text-indent: 20px;
+    margin-left: 20px;
+}
+
+#list{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+#maj{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.ep{
+    border-left: solid 7px;
+    border-color: #782221
+}
+.df{
+    border-left: solid 7px;
+    border-color: #782221
+}
+
+.comp{
+    border-left: solid 7px;
+    border-color: #782221;
+}
+.ep:hover{
+   border-right: solid 7px;
+   border-color: #782221;
+}
+
+.comp:hover{
+    border-right: solid 7px;
+    border-color: #782221;
+ }
+ .df:hover{
+    border-right: solid 7px;
+    border-color: #782221;
+ }
+
+.logo:hover{
+    opacity: 0.5;
+}
+.logo{
+    display: flex;
+        justify-content: center;
+    }
+    .logo img {
+        width: 50px;
+    }
+    
